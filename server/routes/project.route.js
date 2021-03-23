@@ -8,5 +8,5 @@ module.exports = app => {
     app.get("/api/projects/:projectId", ProjectController.findAProject);
     app.put("/api/projects/update/:projectId", ProjectController.updateAProject);
     app.delete("/api/projects/delete/:projectId", ProjectController.deleteAProject);
-    // app.get("/api/jokes/random", JokeController.randomJoke);
+    // app.get("/api/project/random", ProjectController.randomProject);
 }

@@ -16,7 +16,6 @@ const ProjectSchema = new mongoose.Schema({
 })
 
 
-
 // This is how we register our schema.
 const Project = mongoose.model("Project", ProjectSchema);
 

@@ -53,19 +53,19 @@ module.exports.deleteAProject = (req, res) => {
 
 }
 
-// module.exports.randomJoke = (req, res) =>{
+// module.exports.randomProject = (req, res) =>{
 //     console.log("random")
-//     Joke.find()
-//         .then (alljokes => {
-//             // console.log("all quotes look like this", alljokes)
-//             let maxindex=alljokes.length
+//     Project.find()
+//         .then (allProjects => {
+//             // console.log("all quotes look like this", allProjects)
+//             let maxindex=allProjects.length
 //             console.log(Math.random(maxindex))
 //             function getRandomInt(max){
 //                 return Math.floor(Math.random()*Math.floor(max));
 //             }
 //             let randomNum = getRandomInt(maxindex)
-//             console.log("random joke: ", randomNum)
-//             res.json({results: alljokes[randomNum]})
+//             console.log("random project: ", randomNum)
+//             res.json({results: allProjects[randomNum]})
 //         })
 //         .catch(err => res.json(err))
 // }
